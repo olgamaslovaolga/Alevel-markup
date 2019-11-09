@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="aac62621-e9e9-42f8-ba02-8f280730de4d" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lessson02.md" beforeDir="false" afterPath="$PROJECT_DIR$/lessson02.md" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -31,13 +32,22 @@
         <entry file="file://$PROJECT_DIR$/lessson02.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor />
+              <first_editor relative-caret-position="185">
+                <caret line="898" column="3" lean-forward="true" selection-start-line="898" selection-start-column="3" selection-end-line="898" selection-end-column="3" />
+              </first_editor>
               <second_editor />
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>редакто</find>
+      <find>альтерна</find>
+      <find>обратите</find>
+    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -47,6 +57,7 @@
       <list>
         <option value="$PROJECT_DIR$/../markup/01_html.md" />
         <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/lessson02.md" />
       </list>
     </option>
   </component>
@@ -81,6 +92,11 @@
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
+  </component>
   <component name="RunDashboard">
     <option name="ruleStates">
       <list>
@@ -103,12 +119,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1572903451295</updated>
-      <workItem from="1572903452427" duration="7955000" />
+      <workItem from="1572903452427" duration="9983000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7955000" />
+    <option name="totallyTimeSpent" value="9983000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="797" extended-state="0" />
@@ -180,7 +196,9 @@
     <entry file="file://$PROJECT_DIR$/lessson02.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor />
+          <first_editor relative-caret-position="185">
+            <caret line="898" column="3" lean-forward="true" selection-start-line="898" selection-start-column="3" selection-end-line="898" selection-end-column="3" />
+          </first_editor>
           <second_editor />
         </state>
       </provider>
