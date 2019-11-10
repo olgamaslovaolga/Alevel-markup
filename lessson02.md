@@ -8,10 +8,12 @@
 
 ### Структура тега
 
-![](https://github.com/olgamaslovaolga/Alevel-Markup/raw/master/images/img-tag.png)"width: 550px;"
+![](https://github.com/olgamaslovaolga/Alevel-Markup/raw/master/images/img-tag.png)"width: 500px; display: block; margin: 0 auto 30px;"
 
 
-**Начальный (Открывающий) тег** - показывает, где начинается элемент. После содержимого элемента идёт **Конечный (Закрывающий) тег**, в котором вместе с открывающей угловой скобкой есть косая черта. По закрывающему тегу мы определяем, что элемент завершён.
+**Начальный (Открывающий) тег** - показывает, где начинается элемент. 
+
+После содержимого элемента идёт **Конечный (Закрывающий) тег**, в котором вместе с открывающей угловой скобкой есть косая черта. По закрывающему тегу мы определяем, что элемент завершён.
 Теги можно писать в нижнем и верхнем регистре, иными словами, маленькими, большими буквами или произвольно смешивать их. Все варианты написания ниже корректны.
 
 *   <main>
@@ -34,17 +36,17 @@
 Теги могут вкладываться друг в друга. При вложении следует соблюдать порядок их закрытия (**_принцип «матрёшки»_**).
 
 **Верная вложенность:**
-![](https://github.com/olgamaslovaolga/Alevel-Markup/raw/master/images/img-2-tagvalid.png)
+![](https://github.com/olgamaslovaolga/Alevel-Markup/raw/master/images/img-2-tagvalid.png)"width: 300px;"
 
 **НЕверная вложенность:**
-![](https://github.com/olgamaslovaolga/Alevel-Markup/raw/master/images/img-2-tagNoValid.png)
+![](https://github.com/olgamaslovaolga/Alevel-Markup/raw/master/images/img-2-tagNoValid.png)"width: 300px;"
 
 Выделяют две основные категории HTML-элементов, которые соответствуют типам их содержимого и поведению в структуре веб-страницы — **_блочные и строчные_** элементы. С помощью блочных элементов можно создавать структуру веб-страницы, строчные элементы используются для форматирования текстовых фрагментов.
 
 
-*   примеры блочных: <p>, <div>, <form>, <nav>, <ul>, <h1>, ...
+*   примеры блочных: `<p>`, `<div>`, `<form>`, `<nav>`, `<ul>`, `<h1>`, ...
 
-*   примеры строчных: <a>, <span>, <b>, <em>, <i>, <mark>,  ...
+*   примеры строчных: `<a>`, `<span>`, `<b>`, `<em>`, `<i>`, `<mark>`,  ...
 
 
 ### Атрибуты тега    
@@ -99,7 +101,7 @@ _**Синтаксис:**_
 
 Порядок атрибутов в элементе не имеет значения и на результат отображения элемента не влияет. Также допустим перенос атрибутов на другую строку. Следующие записи по своему действию равноценны.
 
-![](https://github.com/olgamaslovaolga/Alevel-Markup/raw/master/images/img-2-attr.png)"width: 500px"
+![](https://github.com/olgamaslovaolga/Alevel-Markup/raw/master/images/img-2-attr.png)"width: 500px;"
 
 
 
@@ -125,35 +127,36 @@ _**Синтаксис:**_
 
 ### Основные группы тегов
 
-- [служебные теги](https://html5book.ru/osnovy-html/#part2) (doctype, head, title, ...);
+- [служебные теги](https://html5book.ru/osnovy-html/#part2) (`<doctype>`, `<head>`, `<title>`, ...);
 
-- [теги для группировки контента](https://html5book.ru/html5-semantic-elements/) (div, header, main, footer, section, article, ...);
+- [теги для группировки контента](https://html5book.ru/html5-semantic-elements/) (`<div>`, `<header>`, `<main>`, `<footer>`, `<section>`, `<article>`, ...);
 
-- [списки ](https://html5book.ru/html-lists/)(ol, ul, dl);
+- [списки ](https://html5book.ru/html-lists/)(`<ol>`, `<ul>`, `<dl>`);
 
-- [ссылки ](https://html5book.ru/hyperlinks-in-html/)(a);
+- [ссылки ](https://html5book.ru/hyperlinks-in-html/)(`<a>`);
 
-- [таблицы ](https://html5book.ru/html-table/)(table, thead, tbody, tr, th, td, ...);
+- [таблицы ](https://html5book.ru/html-table/)(`<table>`, `<thead>`, `<tbody>`, `<tr>`, `<th>`, `<td>`, ...);
 
-- [текстовые](https://html5book.ru/html-text/) (h1, p, q, strong, ...);
+- [текстовые](https://html5book.ru/html-text/) (`<h1>`, `<p>`, `<q>`, `<strong>`, ...);
 
-- [изображения ](https://html5book.ru/images-in-html/)(img, …);
+- [изображения ](https://html5book.ru/images-in-html/)(`<img>`, …);
 
-- формы (form, input, select, button, ...).
+- формы (`<form>`, `<input>`, `<select>`, `<button>`, ...).
 
 
 ## 2. Теги для HTML текста
-1. Теги заголовков: <h1...h6>
-2. Теги для форматирования текста: <b>, <em>, <i>, <small>, <strong>, <sub>, <sup>, <ins>, <del>
-3. Теги для ввода «компьютерного» текста: <code>, <kbd>, <samp>, <var>, <pre>
-4. Теги для оформления цитат и определений: <abbr>, <bdo>, <blockquote>, <q>, <cite>, <dfn>
-5. Абзацы, средства переноса текста: <p>, <br>, <hr>
+1. Теги заголовков: `<h1...h6>`
+2. Теги для форматирования текста: `<b>`, `<em>`, `<i>`, `<small>`, `<strong>`, `<sub>`, `<sup>`, `<ins>`, `<del>`
+3. Теги для ввода «компьютерного» текста: `<code>`, `<kbd>`, `<samp>`, `<var>`, `<pre>`
+4. Теги для оформления цитат и определений: `<abbr>`, `<bdo>`, `<blockquote>`, `<q>`, `<cite>`, `<dfn>`
+5. Абзацы, средства переноса текста: `<p>`, `<br>`, `<hr>`
 
 
 Для управления текстом и изменения его вида существует достаточно большое количество различных элементов. Что не удивительно, ведь текст — это самый популярный вид информации.
 
 > Любое количество пробелов идущих подряд, в браузере отображается как один
 
+---
 
 ### `<p>Абзац</p>`
 
@@ -174,6 +177,8 @@ _**Синтаксис:**_
 <p>Первый абзац </br> Второй абзац</p>
 ```
 
+---
+
 ### `<h3>Заголовки</h3>`
 
 Заголовки выполняют важную функцию на веб-странице — с их помощью происходит систематизация текста и определяется иерархия подразделов. Это учитывается поисковыми системами при индексации веб-страницы и при отображении результатов поиска.
@@ -184,6 +189,7 @@ _**Синтаксис:**_
 
 :heavy_exclamation_mark: Стоит отметить, что поисковые системы придают особое значение заголовкам, поэтому необходимо учиться правильно их использовать.
 
+---
 
 ### Тег `<blockquote>`, отдельная цитата
 
@@ -201,6 +207,8 @@ _**Синтаксис:**_
 
 В браузере тегу `<blockquote>` обычно добавляются горизонтальные отступы.
 
+---
+
 ### Тег `<time>`, дата и время
 
 В HTML есть специальный тег для разметки даты и времени. Это тег `<time>`.
@@ -213,6 +221,8 @@ _**Синтаксис:**_
 
 Браузер отображает только содержимое тега, а содержимое datetime не отображается. Человек увидит только понятное ему обозначение времени, а машина прочитает атрибут и получит дату в нужном ей формате. И все останутся довольны.
 
+---
+
 ### Теги `<em>` и `<i>`, акцентирование внимания
 
 Существуют два тега предназначены для акцентирования внимания на слово или фразу. Это теги <em> (сокращение от «emphasis») и <i> (сокращение от «italic»). Визуально оба тега одинаковы, они выделяют текст курсивом. Но значение у этих тегов различное.
@@ -220,6 +230,8 @@ _**Синтаксис:**_
 Тег <em> определяет текст, на который сделан _особый акцент_, меняющий смысл предложения.
 
 Тег <i> применяется для обозначения текста, который отличается от окружающего текста, но не является более важным. Например, в <i> можно заключать _названия_, _термины_, _иностранные слова_. Также в этот тег можно обернуть _мысли_ героя. В речи такой текст обычно выделяется интонационно.
+
+---
 
 ### Теги `<strong>` и `<b>`, важность и выделение
 
@@ -250,10 +262,9 @@ _**Синтаксис:**_
 
 <[hr](https://www.w3schools.com/tags/tag_hr.asp)> - Рисует горизонтальную линию
 
+---
 
 ## 3. HTML-cписки. Виды и применение
-
-
 В HTML тегов для разметки списков сразу несколько: для упорядоченных списков, неупорядоченных списков и списков описаний.
 
 ### Неупорядоченный список. Тег `<ul>`. 
@@ -354,7 +365,7 @@ _**Синтаксис:**_
 
 При помощи атрибута **SRC** указывается путь к картинке. При помощи атрибута **ALT** указывается альтернативный текст для картинки. Если картинка по каким либо причинам не отобразится на веб-странице, то вместо нее вы увидите альтернативный текст:
 
-![](https://github.com/olgamaslovaolga/Alevel-Markup/raw/master/images/img-2-imaalt.png)"width: 500px"
+![](https://github.com/olgamaslovaolga/Alevel-Markup/raw/master/images/img-2-imaalt.png)"width: 200px;"
 
 Также для изображения рекомендуется указывать ширину и высоту, это позволит браузеру быстрее загружать изображения на веб-страницу. Указывать ширину и высоту можно при помощи каскадных таблиц стилей, либо при помощи атрибутов width (ширина) и height (высота):
 
@@ -368,7 +379,7 @@ _**Синтаксис:**_
 Если изображение и файл, в котором прописан путь к этому изображению, лежат в одной папке:
 
 
-![](https://github.com/olgamaslovaolga/Alevel-Markup/raw/master/images/img-new01.png)"width: 500px"
+![](https://github.com/olgamaslovaolga/Alevel-Markup/raw/master/images/img-new01.png)"width: 300px;"
 
 
 
@@ -380,8 +391,7 @@ _**Синтаксис:**_
 Если картинку перенести в папку _img_:
 
 
-![](https://github.com/olgamaslovaolga/Alevel-Markup/raw/master/images/img-new02.png)"width: 500px"
-
+![](https://github.com/olgamaslovaolga/Alevel-Markup/raw/master/images/img-new02.png)"width: 300px;"
 
 
 то путь к ней будет начинаться с названия папки, в которой она находится:
@@ -393,7 +403,7 @@ _**Синтаксис:**_
 Если файл _index.html_ поместить в папку _files_:
 
 
-![](https://github.com/olgamaslovaolga/Alevel-Markup/raw/master/images/img-new03.png)"width: 500px"
+![](https://github.com/olgamaslovaolga/Alevel-Markup/raw/master/images/img-new03.png)"width: 300px;"
 
 
 
@@ -422,11 +432,11 @@ _**Синтаксис:**_
 Если навести курсор на картинку, то появится всплывающая подсказка:
 
 
-![](https://github.com/olgamaslovaolga/Alevel-Markup/raw/master/images/img-new04.png)"width: 500px"
+![](https://github.com/olgamaslovaolga/Alevel-Markup/raw/master/images/img-new04.png)"width: 300px;"
 
 
 
-### Форматы графических изображений**
+### Форматы графических изображений
 
 Существует множество различных графических форматов, но браузеры поддерживают лишь несколько. Рассмотрим три из них.
 
@@ -494,7 +504,7 @@ _**Синтаксис:**_
 *   **PNG**  формат для всего остального (иконки, кнопки и др.).
 *   **SVG** четкость картинки + небольшой размер
 
-### 5. HTML-ссылки. Тег `<a>`.
+## 5. HTML-ссылки. Тег `<a>`.
 Ссылки нужны для того, чтобы связывать между собой веб-страницы в сети интернет. Ссылки бывают **внутренние**, ведущие на другие разделы внутри сайта, **внешние**, ведущие на другие сайты в сети интернет. Бывают **ссылки-закладки** или **якоря**, ведущие к определенному месту на веб-странице. Рассмотрим все варианты на примерах.
 
 Ссылки создаются при помощи тега `<a>` _(англ. hyperlink)_. Данный тег является парным, строчным и имеет обязательный атрибут href, значением которого служит адрес, по которому мы будем переходить при клике по ссылке:
@@ -554,25 +564,22 @@ _**Значение идентификатора должно начинатьс
 
 Обратите внимание, что при наведении курсора мыши на ссылку меняется вид курсора, а в строке состояния браузера отображается полный путь к документу.
 
-![](https://github.com/olgamaslovaolga/Alevel-Markup/raw/master/images/img-link01.png)"width: 500px"
-
+![](https://github.com/olgamaslovaolga/Alevel-Markup/raw/master/images/img-link01.png)"width: 300px;"
 
 Если указана ссылка на документ, которого не существует, к примеру, его имя в атрибуте href набрано с ошибкой, то такая ссылка называется «битая». Битых ссылок следует избегать, поскольку они вводят посетителей сайта в заблуждение. Так, при щелчке по ссылке из примера 1 в браузере Firefox откроется не сам документ, а окно с предупреждением
 
-
-![](https://github.com/olgamaslovaolga/Alevel-Markup/raw/master/images/img-link02.png)"width: 500px"
-
+![](https://github.com/olgamaslovaolga/Alevel-Markup/raw/master/images/img-link02.png)"width: 300px;"
 
 
 ## 6. Таблица как часть контента. Тег `<table>`
 ### Создание таблицы 
 
-Таблицы создаются при помощи парного тега `<table>`, внутри которого прописываются теги для создания строк таблицы – <tr>...</tr>, и теги для создания ячеек таблицы – <td>...</td>
+Таблицы создаются при помощи парного тега `<table>`, внутри которого прописываются теги для создания строк таблицы – `<tr>...</tr>`, и теги для создания ячеек таблицы – `<td>...</td>`
 
 По умолчанию таблицы отображаются без границ. Для того, чтобы отобразить границу необходимо использовать атрибут border="1".
 
 
-![](https://github.com/olgamaslovaolga/Alevel-Markup/raw/master/images/img-table01.png)"width: 500px"
+![](https://github.com/olgamaslovaolga/Alevel-Markup/raw/master/images/img-table01.png)"width: 500px;"
 
 
 ```
@@ -601,7 +608,7 @@ html-код:
 
 
 
-![](https://github.com/olgamaslovaolga/Alevel-Markup/raw/master/images/img-table02.png)"width: 500px"
+![](https://github.com/olgamaslovaolga/Alevel-Markup/raw/master/images/img-table02.png)"width: 500px;"
 
 
 
@@ -663,7 +670,7 @@ html-код:
 Обратите внимание на то, что при объединении ячеек меняется количество элементов в строке [<tr>](https://guruweba.com/html/teg-tr-html-stroka-v-tablitse/). Например, если в таблице 3 колонки с ячейками [<td>](https://guruweba.com/html/teg-td-html-yacheyka-tablitsy/), и мы объединяем первую и вторую ячейку, то всего внутри тега [<tr>](https://guruweba.com/html/teg-tr-html-stroka-v-tablitse/), определяющего данную строку будет 2 элемента [<td>](https://guruweba.com/html/teg-td-html-yacheyka-tablitsy/), первый из них будет содержать атрибут colspan="2".	
 
 
-![](https://github.com/olgamaslovaolga/Alevel-Markup/raw/master/images/img-table03.png)"width: 500px"
+![](https://github.com/olgamaslovaolga/Alevel-Markup/raw/master/images/img-table03.png)"width: 300px;"
 
 
 ```
@@ -707,7 +714,7 @@ html-код:
 ### Тег [<video>](https://www.w3schools.com/tags/tag_video.asp)
 
 
-Добавляет, воспроизводит и управляет настройками видеоролика на веб-странице. Путь к файлу задаётся через атрибут [src](https://www.w3schools.com/tags/att_video_src.asp) или вложенный элемент <source>. Список поддерживаемых браузерами аудио и видеокодеков ограничен и приведён в табл. 1.
+Добавляет, воспроизводит и управляет настройками видеоролика на веб-странице. Путь к файлу задаётся через атрибут [src](https://www.w3schools.com/tags/att_video_src.asp) или вложенный элемент `<source>`. Список поддерживаемых браузерами аудио и видеокодеков ограничен и приведён в табл. 1.
 
 
 ![](https://github.com/olgamaslovaolga/Alevel-Markup/raw/master/images/img-video01.png)"width: 500px"
@@ -728,7 +735,7 @@ html-код:
 ```
 
 
-![](https://github.com/olgamaslovaolga/Alevel-Markup/raw/master/images/img-video02.png)"width: 500px"
+![](https://github.com/olgamaslovaolga/Alevel-Markup/raw/master/images/img-video02.png)"width: 300px;"
 
 
 
@@ -755,7 +762,7 @@ width , Задаёт ширину области для воспроизведе
 Список поддерживаемых  можно помотреть:
 
 
-![](https://github.com/olgamaslovaolga/Alevel-Markup/raw/master/images/img-audio01.png)"width: 500px"
+![](https://github.com/olgamaslovaolga/Alevel-Markup/raw/master/images/img-audio01.png)
 
 
 
@@ -770,7 +777,7 @@ width , Задаёт ширину области для воспроизведе
 ```
 
 
-![](https://github.com/olgamaslovaolga/Alevel-Markup/raw/master/images/img-audio02.png)"width: 500px"
+![](https://github.com/olgamaslovaolga/Alevel-Markup/raw/master/images/img-audio02.png)"width: 200px;"
 
 
 #### Атрибуты тега `<audio>`
@@ -876,10 +883,12 @@ src, Указывает путь к воспроизводимому файлу.
 1. Создаем  папку нашего будущего проекта и называем ее (например, FirstProject), где разместим все необходимые файлы для его разработки
 2. Открываем редактор и создаем новый html-файл. Делаем это с помощью комбинации клавиш **_Ctrl+N_** или с помощью меню **_File -> New File_**
     
-    ![](https://github.com/olgamaslovaolga/Alevel-Markup/raw/master/images/img-file01.png)"width: 500px"
+    ![](https://github.com/olgamaslovaolga/Alevel-Markup/raw/master/images/img-file01.png)"width: 500px;"
 
-3. **_Ctrl+Shift+S (_**или_ **File -> Save As...** )_ - cохраняем созданный файл с именем **<span style="text-decoration:underline;">index</span>** и расширением **<span style="text-decoration:underline;">.html</span>**
-     ![](https://github.com/olgamaslovaolga/Alevel-Markup/raw/master/images/img-file02.png)
+3. **_Ctrl+Shift+S (_**или_ **File -> Save As...** )_ - cохраняем созданный файл с именем **_index_** и расширением **_.html_**:
+
+    ![](https://github.com/olgamaslovaolga/Alevel-Markup/raw/master/images/img-file02.png)"width: 500px;"
+
 4. Создаем базовую структуру для index.html
 
 ```
@@ -903,10 +912,11 @@ src, Указывает путь к воспроизводимому файлу.
 ```
 
 6. Открываем  страницу в браузере:
-     ![](https://github.com/olgamaslovaolga/Alevel-Markup/raw/master/images/img-file03.png)
+
+     ![](https://github.com/olgamaslovaolga/Alevel-Markup/raw/master/images/img-file03.png)"width: 500px;"
 
 7. Для стилей создаем папку CSS, в которой по тому же принципу создаем файл **style.css** .
-     ![](https://github.com/olgamaslovaolga/Alevel-Markup/raw/master/images/img-file04.png)
+     ![](https://github.com/olgamaslovaolga/Alevel-Markup/raw/master/images/img-file04.png)"width: 500px;"
 8.  Прописываем в index.html  в теге <head> соответствующий путь в файлу стилей: 
 ```
     <head>
@@ -923,4 +933,4 @@ src, Указывает путь к воспроизводимому файлу.
 
 В итоге у вас получится такая структура: 
 
- ![](https://github.com/olgamaslovaolga/Alevel-Markup/raw/master/images/img-file05.png)
+ ![](https://github.com/olgamaslovaolga/Alevel-Markup/raw/master/images/img-file06.png)"width: 600px;"
