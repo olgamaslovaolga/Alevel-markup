@@ -40,10 +40,9 @@ CSS:
 *   **:only-child** — выбирает элемент, являющийся единственным дочерним элементом;
 *   **:empty** — выбирает элементы, у которых нет дочерних элементов;
 
-    Почитать можно и [тут](https://code.tutsplus.com/ru/tutorials/the-30-css-selectors-you-must-memorize--net-16048)
+Почитать можно и [тут](https://code.tutsplus.com/ru/tutorials/the-30-css-selectors-you-must-memorize--net-16048)
 
-
-    Потренироваться в использовании можно [тут](https://css-tricks.com/examples/nth-child-tester/) 
+Потренироваться в использовании можно [тут](https://css-tricks.com/examples/nth-child-tester/) 
 
 ## 3. Структурные псевдоэлементы
 
@@ -75,8 +74,9 @@ CSS:
     }
 ```
 
+---
 
-Остановимся немного подробнее на **::after** и  **::before**.  Псэвдоелементы :before и :after предельно просто прописываются в css-коде. Вот простой пример использования:
+Остановимся подробнее на **::after** и  **::before**.  Псэвдоелементы :before и :after предельно просто прописываются в css-коде. Вот простой пример использования:
 
 
 ```
@@ -124,7 +124,7 @@ CSS:
 
 :rocket: 1. **Символы и текст**. Рассмотрим пример: давайте добавим кавычки в начало и конец текста тега  **<blockquote>:**
 
-!!! IMAGE
+![](https://github.com/olgamaslovaolga/Alevel-Markup/raw/master/images/img-401.jpg)
 
 ```
 CSS:
@@ -168,7 +168,7 @@ CSS:
 
 :rocket: 2. **Изображения в качестве фона**. Давайте перед каждым пунктом списка сделаем вместо “точек”, например, цветочки: 
 
-!!!!IMAGE!!!!
+![](https://github.com/olgamaslovaolga/Alevel-Markup/raw/master/images/img-404.jpg)"float: right; margin-top: 20px;"
 ```
 HTML:
     <ul>
@@ -267,12 +267,16 @@ CSS:
 
 ## 4. Единицы измерения в CSS
 
+![](https://github.com/olgamaslovaolga/Alevel-Markup/raw/master/images/img-402.jpg)"width: 400px;"
+
 Существует много свойств CSS, которые требуют **размер в качестве единицы**:
 
 *   **_font-size_** определяет размер текста;
 *   **_border-width_** определяет толщину границ элементов;
 *   **_margin_** определяет пространство между элементами;
 *   **_left/right/top/bottom_** позволяют позиционировать и перемещать элементы.
+
+---
 
 :pushpin: **Наиболее часто используемые единицы**:
 
@@ -388,7 +392,7 @@ CSS:
     p strong { font-size: 2rem; }   /* = 20px * 2 = 40px */
 ```
 
-!!!! IMAGE!!!
+![](https://github.com/olgamaslovaolga/Alevel-Markup/raw/master/images/img-403.jpg)
 
 
 `<span>` полагается на значение font-size у `<р>`, в то время как `<strong>` полагается на значение font-size у `<html>`.
